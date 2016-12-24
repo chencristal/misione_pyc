@@ -77,5 +77,3 @@ Project Info
 724 Media SAS Project
 
 https://misionpyc.com
-user: misionpyc2
-pass: M1s10n20162
