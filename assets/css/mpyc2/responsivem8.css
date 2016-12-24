@@ -1,0 +1,103 @@
+@media only screen and (max-width: 736px) and (min-width: 480px){
+
+	#video1 iframe{
+		width: 100% !important;
+
+	}
+	#video1 input{
+		left: 40% !important;
+		margin-bottom: 20px;
+
+	}
+
+	.container.principal{
+		margin: 10px auto !important;
+	}
+
+	.OracionLetras{
+		font-size: 12px;
+	}
+
+	#actividadNoviazgo {
+	    width: auto;
+	    
+	}
+
+	#preguntaHazTenidoNovio {
+	    top: initial;
+	    left: 0px;
+	    width: 100%;
+	   
+	}
+
+	.form fieldset {
+    	padding: 0px;
+	}
+
+	#titulo{
+		font-size: 15px;
+	}
+
+	#scroll{
+		display: flex;
+		width: 41.6%;
+	}
+
+	#scroll .col-md-6{
+		width: 50%;
+	}
+
+	#contenerdorScroll {
+    	width: 240%;
+	}
+
+	.palabras {
+	    
+	    font-size: 10px;	    
+	}
+
+	fieldset .col-md-5{
+		width: 41.6%;
+		float: left;
+	}
+
+	fieldset .col-md-7{
+		width: 58.3%;
+		float: left;
+	}
+
+	#colMonacho img {
+	    height: inherit;
+	    width: 86%;
+	    position: initial;
+	}
+	#colMonacho > div {
+	    top: 22%;
+	    left: 26%;
+	    width: 50%;
+	    height: 54%;
+	}
+
+	#preguntaFinalMonacho {
+	    top: 10%;
+	    left: 0%;
+	    padding: 13px 20px;
+	    width: 100%;
+	}
+
+	#advertenciaDePreguntas {
+	    top: 43%;
+	    left: 0%;
+	    width: 100%;
+	}
+
+	#preguntaTienesNovio {
+	    top: 43%;
+	    left: 0%;
+	    width: 100%;
+	}
+
+	#contenedorPreguntasRegla {
+	    width: 100%;
+	}
+}

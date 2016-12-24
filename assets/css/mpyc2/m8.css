@@ -1,0 +1,627 @@
+body{
+  overflow-y: hidden;
+}
+/*Estilos de mision 8*/
+/*Estilo Actividad Letras*/
+
+#actividadLetras{
+  background: url('../../img/mpyc2/m8/pantalla.png');
+  width: 100%;
+  max-width: 10000px;
+  margin: 0;
+  background-size: 100% 100%;
+}
+
+#contenedorOracionesLetras{
+  top: 160px;
+  margin: 0 auto;
+  width: 610px;
+  text-align: left;
+}
+
+.contenedorInteriorOracion{
+  width: 610PX;
+}
+
+
+#contenedorOracion1{
+  overflow: hidden;;
+  width: 0%;
+  left: 4px;
+  position: relative;
+}
+
+#contenedorOracion2{
+  overflow: hidden;;
+  width: 0%;
+  left: 0px;
+}
+
+#contenedorOracion3{
+  overflow: hidden;;
+  width: 0%;
+  left: 1px;
+  
+}
+
+.animarOracion{
+  animation-name: animacionOracion;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+
+@keyframes animacionOracion {
+    0%   {width: 0%;}
+    100% {width: 100%;}
+}
+
+.animarOracion2{
+  animation-name: animacionOracion2;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+
+@keyframes animacionOracion2 {
+    0%   {width: 0%;}
+    100% {width: 100%;}
+}
+
+.animarOracion3{
+  animation-name: animacionOracion3;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes animacionOracion3 {
+    0%   {top: 160px;}
+    100% {top: 10px;}
+}
+
+.animarOracion4{
+  animation-name: animacionOracion4;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes animacionOracion4 {
+    0%   {width: 60%;}
+    100% {width: 100%;}
+}
+
+.animarBarra{
+  animation-name: animacionBarra;
+  animation-duration: 8.1s;
+  animation-timing-function: linear;
+}
+
+@keyframes animacionBarra {
+    0%   {width: 0%;}
+    100% {width: 60%;}
+}
+
+
+
+.OracionLetras{
+  color: #154447;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+#contenedorCarga{
+  display: block;
+  margin: 0 auto;
+  top: 200px;
+  width: 500px;
+}
+
+
+.carga img{
+  width: 500px; 
+}
+
+.carga{
+
+}
+
+#carga9{
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  width: 50%;
+}
+
+#carga0{
+  top: 0px;
+  right: 0px;
+  overflow: hidden;
+
+}
+
+#contnedorAhorcado{
+  display: none;
+  top: 50px;
+
+}
+
+.letraAhorcado{
+  color: #1e8f97;
+  font-weight: 800;
+  font-size: 55px;
+  position: absolute;
+  display: none;
+}
+
+#contenedorInteligencia{
+  width: 700px;
+  margin: 20px auto;
+}
+
+#contenedorInteligencia img{
+  width: 100%;
+}
+
+#contenedorInteligencia #Letra1{
+  top:-13px;
+  left: 21px;
+}
+
+#contenedorInteligencia #Letra2{
+  top:-13px;
+  left: 67px;
+}
+
+#contenedorInteligencia #Letra3{
+  top:-13px;
+  left: 129px;
+}
+
+#contenedorInteligencia #Letra4{
+  top:-13px;
+  left: 186px;
+}
+
+#contenedorInteligencia #Letra5{
+  top:-13px;
+  left: 247px;
+}
+
+#contenedorInteligencia #Letra6{
+  top:-13px;
+  left: 314px;
+}
+
+#contenedorInteligencia #Letra7{
+  top:-13px;
+  left: 356px;
+}
+
+#contenedorInteligencia #Letra8{
+  top:-13px;
+  left: 421px;
+}
+
+#contenedorInteligencia #Letra9{
+  top:-13px;
+  left: 476px;
+}
+
+#contenedorInteligencia #Letra10{
+  top:-13px;
+  left: 539px;
+}
+
+#contenedorInteligencia #Letra11{
+  top:-13px;
+  left: 605px;
+}
+
+#contenedorInteligencia #Letra12{
+  top:-13px;
+  left: 654px;
+}
+
+#contenedorVolintad{
+  width: 466px;
+  margin: 20px auto;
+}
+
+#contenedorVolintad img{
+  width: 100%;
+}
+
+#contenedorVolintad #Letra1{
+    top:-13px;
+  left: 11px;
+}
+#contenedorVolintad #Letra2{
+    top:-13px;
+  left: 66px;
+}
+#contenedorVolintad #Letra3{
+    top:-13px;
+  left: 129px;
+}
+#contenedorVolintad #Letra4{
+    top:-13px;
+  left: 183px;
+}
+#contenedorVolintad #Letra5{
+    top:-13px;
+  left: 241px;
+}
+#contenedorVolintad #Letra6{
+    top:-13px;
+  left: 307px;
+}
+#contenedorVolintad #Letra7{
+    top:-13px;
+  left: 363px;
+}
+#contenedorVolintad #Letra8 {
+    top:-13px;
+  left: 420px;
+}
+
+#contenedorRelojLetras{
+  top: 235px;
+  left: 173px;
+}
+
+#contenedorRelojLetras img{
+  width: 207px;
+  height: 108px;
+}
+}
+
+#ayudaLetras{
+  color:#154447;
+  top: 81px;
+  left: 1080px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#ayudaLetras::before{
+  content: url('../../img/mpyc2/m8/pregunta2.png');
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 25px;
+  padding: 10px;
+
+}
+
+#contenedorAyudaLetras{
+  background: #154447;
+  top: 50px;
+  left: 19px;
+  width: 250px;
+  display: block;
+  padding: 10px;
+  /*display: none;*/
+}
+
+#contenedorEstrellasLetras{
+  top: 37px;
+  left: 1022px;
+  width: 285px;
+  height: 117px;
+  padding: 10px;
+  background: #154447;
+}
+
+#contenedorEstrellasLetras span{
+  color: #00fffc;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+#contenedorEstrellasLetras fieldset{
+  padding: 0px !important;
+}
+
+#contenedorCarga2{
+  top: 252px;
+  left: 445px;
+  width: 500px;
+}
+
+#contenedorCarga2 #carga9 {
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  width: 60%;
+} 
+
+#contenedorCarga2 #carga0 {
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  width: 100%;
+} 
+
+#contenedorCarga2 #carga10 {
+  top: 0px;
+  left: 0px;
+  display: none;
+  width: 500px;
+  cursor: pointer;
+} 
+
+#contenedorCarga2 #errorCarga {
+  top: 0px;
+  left: 0px;
+  display: none;
+  width: 500px;
+  cursor: pointer;
+}
+.animacionFocus{
+  animation-name: animarFocus;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes animarFocus {
+      0%   { -webkit-transform: scale(1,1); }
+     50%   { -webkit-transform: scale(1.1,1.1); }
+    100%   { -webkit-transform: scale(1,1); }
+} 
+
+.animarBarriga{
+  animation-name: animacionBarriga;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 4;
+}
+
+@keyframes animacionBarriga {
+     0%   { -webkit-transform: rotate(0deg); }
+    25%   { -webkit-transform: rotate(-1deg);}
+    75%   { -webkit-transform: rotate(1deg); }
+    100%   { -webkit-transform: rotate(0deg); }
+}
+
+.animarRotarLetras{
+  animation-name: animacionRotarLetras;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  transform-origin: 0% 100%;
+  -webkit-transform-origin: 0% 100%;
+  -moz-transform-origin: 0% 100%;
+}
+
+
+@keyframes animacionRotarLetras {
+     0%   { -webkit-transform: rotate(0deg); }
+    20%   { -webkit-transform: rotate(180deg);}
+    40%   { -webkit-transform: rotate(150deg); }
+    60%   { -webkit-transform: rotate(180deg);}
+    80%   { -webkit-transform: rotate(150deg); }
+    100%   { -webkit-transform: rotate(180deg);}
+}
+
+/*Estilo Actividad Monacho*/
+#actividadNoviazgo{
+  width: 1100px;
+  max-width: 1100px !important;
+  height: 471px;
+}
+
+#preguntaHazTenidoNovio{
+  z-index: 20;
+  top: 133px;
+  left: 315px;
+  padding: 0px 20px;
+  background: #152a2d;
+}
+
+#cortina{
+  /*background: rgba(0,0,0,0.5);*/
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+#colMonacho img{
+  top: -46px;
+  left: 65px;
+  height: 477px;
+} 
+
+#colMonacho > div{
+  top: 90px;
+  left: 155px;
+  width: 224px;
+  height: 240px;
+}
+
+#titulo{
+  font-size: 23px;
+  font-weight: 800;
+} 
+
+
+.palabras{
+  background:  url('../../img/mpyc2/m8/boton_off.png');
+  background-size: 100% 100%;
+  font-size: 23px;
+  margin: 2px;
+  padding: 5px 0px;
+  cursor: move;
+}
+
+.palabraDraggable:hover{
+  background:  url('../../img/mpyc2/m8/boton_on.png');
+  background-size: 100% 100%;
+}
+
+#contenerdorScroll{
+  height: 223px;
+  width: 880px;
+  overflow: hidden;
+}
+
+#barrigaMoncaho div span{
+  margin-right: 20px;
+}
+
+#scroll{
+  width: 400px;
+
+}
+
+#palabra1{
+  display: none;
+}
+
+#palabra2{
+  display: none;
+}
+
+#palabra3{
+  display: none;
+}
+
+#palabra4{
+  display: none;
+}
+
+#palabra5{
+  display: none;
+}
+
+.quitar{
+  height: 33px !important;
+  top: 5px !important;
+  right: 10px !important;
+  left: initial !important;
+  cursor: pointer;
+}
+
+#preguntaFinalMonacho{
+  z-index: 19;
+  top: 53px;
+  left: 304px;
+  padding: 13px 20px;
+  background: #152a2d;
+  width: 560px;
+  display: none;
+}
+
+
+/*Estilo Actividad Regla*/
+
+#preguntaTienesNovio{
+  z-index: 19;
+  top: 206px;
+  left: 130px;
+  padding: 13px 20px;
+  background: #152a2d;
+  width: 560px;
+
+}
+
+#advertenciaDePreguntas{
+  z-index: 19;
+  top: 249px;
+  left: 125px;
+  padding: 13px 20px;
+  background: #152a2d;
+  width: 560px;
+}
+
+#imagRegla{
+  width: 100%;
+  height: 90px;
+  margin: 50px 0px 40px 0px;
+}
+
+#imagFlecha{
+  z-index: 10;
+  top: 23px;
+  left: -8px;
+  width: 35px;
+  height: 147px;
+}
+
+#seccionPreguntas{
+  display: block;
+  height: 237px;
+}
+
+
+#seccionResultados{
+  display: none;
+  height: 237px;
+}
+
+
+#contenedorPreguntasRegla{
+  width: 480px;
+  margin: 0 auto;
+  height: 237px;
+}
+
+#contenedorContadorRegla{
+
+  top: 5px;
+  right: 5px;
+}
+
+#contenedorContadorRegla img{
+  width: 120px;
+  height: 70px;
+}
+
+#contadorRegla{
+
+  left: 2px;
+  top: 23px;
+  font-size: 18px !important;
+  width: 100%;
+  text-align: center;  
+}
+
+#contenedorPregunta{
+    margin: 80px auto -20px;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+}
+
+#preguntaRegla{
+  font-size: 20px !important;
+  width: 100%;
+
+
+}
+
+.btnRegla{
+  width: 80px !important;
+  margin: 25px 15px;
+
+}
+
+#contenedorResultado{
+  margin: 30px auto;
+
+}
+
+#ResultadoRegla{
+  font-size: 36px;
+  font-weight: 800;
+
+}
+
+#contadorRegla2 {
+    left: 2px;
+    top: 31px;
+    font-size: 30px !important;
+    width: 100%;
+    text-align: center;
+}
+

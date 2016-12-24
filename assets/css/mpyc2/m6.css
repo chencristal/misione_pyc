@@ -1,0 +1,29 @@
+.imagenCustionario{
+	margin-left: 20px;
+	visibility: hidden;
+}
+
+#emergenteCuestionario{
+	display: none;
+	width: 100%;
+	height: 100%;
+	top:0px;
+	left: 0px;	
+}
+
+#emergenteCuestionario >div{
+	
+	width: 40%;
+	/*height: 100%;*/
+	top:30%;
+	/*left: 0px;*/
+	position: relative;	
+	margin: 0px auto;
+	background: #152a2d;
+	padding: 20px;
+}
+
+#emergenteCuestionario >div input{
+	
+	margin: 20px auto;
+}

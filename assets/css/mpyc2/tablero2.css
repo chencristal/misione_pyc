@@ -1,0 +1,154 @@
+.tituloMapa{
+	color: white;
+	font-size: 30px;
+    font-weight: 800;
+}
+
+#tableroGeneral{
+	top:115px;
+	left: 400px;
+}
+
+.contMision{
+
+	width: 140px;
+	text-align: left;	
+
+}
+
+.contMision a{
+	text-decoration: none;
+}
+
+.contMision a div{
+	background: url('../../img/mpyc2/tablero2/activa.png');
+	height: 53px;
+	width: 53px;
+}
+
+.contMision a div img{
+	/*display: none;*/
+}
+
+
+#contMision1{
+	top: 85px;
+	left: -110px;	
+}
+
+#contMision1 a:last-child{
+	top: -17px;
+	left: -55px;
+}
+
+#contMision2{
+	top: 130px;
+	left: -40px;	
+}
+
+#contMision2 a:last-child{
+	top: -17px;
+	left: -55px;
+}
+
+#contMision3{
+	top: -68px;
+	left: 10px;	
+}
+
+#contMision3 a:last-child{
+	top: 15px;
+	left: 5px;
+}
+
+#contMision5{
+	top: 8px;
+	left: 145px;	
+}
+
+#contMision5 a:last-child{
+	top: -17px;
+	left: -55px;
+}
+#contMision6{
+	top: 67px;
+	left: 187px;	
+}
+
+#contMision6 a:last-child{
+	top: -17px;
+	left: -55px;
+}
+
+#contMision7{
+	top: 137px;
+	left: 200px;	
+}
+
+#contMision7 a:last-child{
+	top: -17px;
+	left: -55px;
+}
+
+#contMision8{
+	top: 207px;
+	left: 184px;	
+}
+
+#contMision8 a:last-child{
+	top: -17px;
+	left: -55px;
+}
+
+#contMision9{
+	top: 263px;
+	left: 138px;	
+}
+
+#contMision9 a:last-child{
+	top: -17px;
+	left: -55px;
+}
+#contMision10{
+	top: 334px;
+	left: 7	px;	
+}
+
+#contMision10 a:last-child{
+	top: -50px;
+	left: 10px;
+}
+
+.botonHome{
+	position: relative;
+    top: 440px;
+}
+
+.deshabilitado, .deshabilitado:focus, .deshabilitado:hover, .deshabilitado:link{
+	color: #265a62;
+}
+
+.texto-verde, .texto-verde:focus, .texto-verde:hover, .texto-verde:link{
+	color:#a2ff00;
+}
+
+.texto-azul:focus, .texto-azul:hover, .texto-azul:link{
+	color: #00fffc
+}
+
+#ContPrincipal{
+	background: #152A2D;
+	width: 900px;
+	height: 550px;
+}
+
+#tableroGeneralAdmin{
+	margin: 110px 0px;
+    left: 50%;
+}
+
+
+
+
+
+

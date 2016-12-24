@@ -1,0 +1,205 @@
+/*@media only screen and (max-width: 736px) and (min-width: 480px){
+
+	#video1 iframe{
+		width: 100% !important;
+
+	}
+	#video1 input{
+		left: 40% !important;
+		margin-bottom: 20px;
+
+	}
+
+	.container.principal{
+		margin: 10px auto !important;
+	}
+
+	#emergenteObjetos > div {
+	    width: 98%;
+	    top: 20%;
+	}
+
+	#emergenteObjetos {
+	    height: 100%;
+	}
+
+	#camino {
+	    width: 95%;
+	    left: 0px;
+	    top: 10px;
+	    padding: 10px;
+	    height: auto;
+	}
+
+	#tituloCamino {
+	    top: 0px;
+	}
+
+	#subtituloCamino {
+	    font-size: 17px;
+	    top: 0px;
+	}
+
+	#textoCamino {
+	    top: 0px;
+	    left: 0px;
+	    width: 100%;
+	}
+
+	#botonContinuar {
+	    top: 0px;
+	}
+
+	#subtituloCamino2 {
+	    position: absolute;
+	    right: 0% !important;
+	    bottom: -46% !important;
+	    top: initial;
+	    left: initial;
+	    
+	}
+
+	.flecha {
+	    top: 31%;
+	    width: 27%;
+	    height: 28%;
+	}
+
+	.flecha img{
+		width: 100%;
+	}
+
+	.flecha span h2 {
+	    font-size: 3.5vh;
+	}
+
+	.flecha span {
+	    top: -22vh;
+
+	}
+
+	#cuadroFlecha1 {
+	    width: 100%;
+	    height: auto;
+	    padding: 5px;
+	    
+	}
+
+	#botonCuadro1 {
+		left: 0px;
+	    margin: 10px;
+	}
+
+	.paddingColFlecha1{
+		padding: 2px;
+	}
+
+	#cuadroFlecha1 .col-md-3 img{
+		width: 20% !important;
+		top: 0px !important;
+	}
+
+	#cuadroFlecha1 .col-md-5{
+		width: 55%;
+		float: left;
+	}
+
+	#cuadroFlecha1 .col-md-6{
+		width: 50%;
+		float: left;
+	}
+
+
+	}#cuadroFlecha1 .col-md-4{
+		width: 44%;
+		float: left;
+	}
+
+	.palabras {
+	    font-size: 13px;
+	    padding: 5px 0px;
+	}
+
+	.cuadroFlecha {
+	    padding: 5px;
+	    height: auto;
+	    top: 0px;
+	    width: 100% !important;
+    	margin-bottom: 30px;
+	}
+
+	#texto3Cuadro1 {
+	    width: 100%;
+	    position: initial;
+	}
+
+	#texto4Cuadro1 {
+	    width: 100%;
+	    position: initial;
+	}
+
+	#imagenCuadro1 {
+	    position: initial;
+	    width: 34%;
+	    display: inherit;
+	    margin: 0 auto;
+	}
+
+	#boton2Cuadro1 {
+	    position: initial;
+    }
+
+    #mensajeCuadroFlecha1 {
+	    width: 100%;
+	    
+	}
+
+	.dialogoFlecha {
+	    width: 100% !important;
+	    margin: 0px auto 30px;
+	    padding: 5px;
+	}
+
+	#texto5Cuadro1 {
+	    width: 100%;
+	    position: initial;
+	}
+
+	.cuadroFlecha .col-md-5 img{
+		width: 20%;
+		position: initial !important;
+	}
+
+	.tituloCuadroFlecha{
+		position: initial !important;
+		width: 100% !important;
+	}
+
+	.textoMensaje{
+		position: initial !important;
+		width: 100% !important;
+	}
+
+	#actividadCamino2 .btn{
+		position: initial !important;	
+	}
+
+	.tituloCuadroFlecha2{
+		position: initial !important;
+	}
+
+	.mensajeFinal {
+	    width: 100%;
+	    position: initial;	
+	    left: 190px;
+	}
+
+	#felicitacionesCamino .btn{
+		position: initial !important;
+		margin: 0px auto;	
+	}
+
+
+
+
+}*/

@@ -1,0 +1,52 @@
+
+.street-parent {
+    overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+}
+.sub-parent {
+    position: absolute;
+}
+.div-part {
+    position: absolute;
+}
+.div-part img {
+    width: 100%;
+    height: 100%;
+}
+.car_parent {
+    position: absolute;
+    z-index: 9999;
+}
+
+.car-control {
+    position: absolute;
+    bottom: 0px;
+}
+@media (max-width: 892px) {
+    .car-arrow-panel {
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+        text-align: center;
+    }
+}
+@media (min-width: 893px) {
+    .car-arrow-panel {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        text-align: center;
+    }
+}
+
+.car-arrow-panel > img {
+    width: 100%;
+}
+.car-time {
+    position: absolute;
+}
+.car-time > span {
+    color: #15e049;
+    font-size: 50px;
+}

@@ -1,0 +1,185 @@
+@media only screen and (max-width: 736px) and (min-width: 480px){
+	
+	.container.principal{
+		margin: 10px auto !important;
+	}
+
+	#video iframe{
+		width: 100% !important;
+
+	}
+	#video input{
+		left: 40% !important;
+
+	}
+
+	#libroSlider{
+		padding: 5px !important;
+		height: auto !important;
+	}
+
+	#libroSlider fieldset{
+		text-align: center;
+
+	}
+
+	#pregunta{
+		font-size: 25px !important;
+	}
+	
+	#libroSlider br{
+		display: none;	
+	}
+
+	#slider{
+		top: 0px !important;
+		width: 100% !important;
+	}
+
+	.booklet .b-wrap-left {
+	    background-image: url("/assets/img/mpyc2/m3/hojaD.png");
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	}
+
+	.booklet .b-wrap-right {
+	    background-image: url("/assets/img/mpyc2/m3/hojaI.png");
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	}
+
+	.booklet .b-p1, .b-pN {
+	    left: 0px !important;
+	    width: 50% !important;
+	    height: 74.3vw !important;
+	}
+
+	.booklet .b-p2, .booklet .b-p4 {
+    	left: 50% !important;
+	    width: 50% !important;
+	    height: 74.3vw !important;
+	    
+	}
+
+	.booklet .b-page, .booklet {
+	    height: 74.3vw !important;
+	}
+
+	.booklet .b-pN .b-wrap, .booklet .b-p1 .b-wrap, .booklet .b-p2 .b-wrap, .booklet .b-p3 .b-wrap, .booklet .b-p4 .b-wrap {
+	    left: 0px !important;
+	    width: 100% !important;
+	    height: 100% !important;
+	    padding: 0px !important;
+	}
+
+	.imgSlider {
+
+	    top: 20vh;
+	    left: 20%;
+	    width: 66%;
+	    height: auto;
+	}
+
+
+	.textoSlider {
+	    top: 13%;
+	    left: 10%;
+	    width: 76%;
+	    height: auto;
+	    text-align: justify !important;
+	    font-size: 2.6vw !important;
+	}
+
+	.booklet .b-arrow-next {
+	    right: 4vw;
+	}
+
+	.booklet .b-arrow-prev {
+	    left: 1vw;
+	}
+
+	.booklet .b-arrow {
+		top: 20vh;
+	}
+
+	#continuar2{
+		top: 0px !important;
+	}
+
+	.booklet .b-counter {
+	   
+	    bottom: 20px;
+	}
+
+	.b-controls {
+		top: 64vh !important;
+	}
+
+	#parteBarriga{
+		top: 0px;
+		background-size: 100% 100%;
+		overflow: hidden;
+	}
+
+	#contBarriga {
+	    border-radius: 166% 166% 360% 360%;
+	    width: 100%;
+	    left: 0px;
+	    top: -10px;
+	    height: 123%;
+	    overflow: hidden;
+	}
+
+	#barrigaBliss .pull-left{
+		top: -85vh !important;
+	}
+
+	#continuar3 {
+	    position: absolute !important;
+	    top: initial !important;
+	    left: initial !important;
+	    right: 10px !important;
+	    bottom: 10px !important;
+	}
+
+	
+
+}
+
+@media only screen and (max-width: 546px) and (min-width: 480px){
+
+	#imagenBarriga{
+		top:1200px;
+		left: -1330px;
+	}
+}
+
+@media only screen and (max-width: 618px) and (min-width: 547px){
+
+	#imagenBarriga{
+		top:1180px;
+		left: -1540px;
+	}
+}
+
+@media only screen and (max-width: 701px) and (min-width: 619px){
+
+	#imagenBarriga{
+		top:1480px;
+		left: -1800px;
+	}
+}
+
+@media only screen and (max-width: 799px) and (min-width: 701px){
+
+	#imagenBarriga{
+		top:1685px;
+		left: -1990px;
+	}
+}
+
+
+
+
+
+

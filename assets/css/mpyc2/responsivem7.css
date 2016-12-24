@@ -1,0 +1,115 @@
+@media only screen and (max-width: 736px) and (min-width: 480px){
+
+	#video iframe{
+		width: 100% !important;
+
+	}
+	#video input{
+		left: 40% !important;
+
+	}
+
+	.container.principal{
+		margin: 10px auto !important;
+	}
+
+	#frascodescripcion{
+		display: none;
+	}
+
+	#actividadCocina {
+	    width: 800px;
+	    max-width: 100%;
+	    padding: 5px;
+	    left: 0px !important;
+	}
+
+	#tituloIngrediente {
+	    height: auto;
+	    margin: 0px;
+	}
+
+	#repisas {
+    	width: 100%;
+	}
+
+	.repisaSup {
+	    top: 7% !important;
+	}
+
+	.frasco {
+	    width: 12%;
+	}
+
+	.repisaInf {
+	    top: 37% !important;
+	}
+
+	#frasco1 {
+	    left: 19%;
+	}
+
+	#frasco2 {
+	    left: 32%;
+	}
+
+	#frasco3 {
+	    left: 46%;
+	}
+
+	#frasco4 {
+	    left: 60%;
+	}
+
+	#frasco5 {
+	    left: 73%;
+	}
+
+	#frasco6 {
+	    left: 20%;
+	}
+
+	#frasco7 {
+	    left: 38%;
+	}
+
+	#frasco8 {
+	    left: 54%;
+	}
+
+	#frasco9 {
+	    left: 70%;
+	}
+
+	#olla {
+		width: 66%;
+		top: 70.5%;
+		left: 17%;
+	}
+
+	#humo {
+	    width: 45%;
+	    top: 40%;
+	    left: 29%;
+	}
+
+	.cuadroIngrediente {
+    
+	    margin: 5px;
+	    height: 45px;
+	    text-align: center;
+    
+	}
+
+	.ui-dialog.success-dialog {
+    
+    	top: 30% !important;
+	}
+
+	#continuar-vista2 {
+	    top: 109%;
+	    left: 38%;
+	    margin-bottom: 30px;
+	}
+
+}

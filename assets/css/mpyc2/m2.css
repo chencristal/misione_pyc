@@ -1,0 +1,392 @@
+a, a:link, a:focus{
+	color:#00fffc;
+}
+#titulo{
+	text-transform:uppercase; 
+	color:#ffae00; 
+	font-weight:bold; 
+	font-size:25px;
+}
+.imagenes{
+	width: 200px;
+}
+.centrarTexto{
+	position: relative;
+	top: 80px;
+	left: 60px;
+	width: 150px;
+}
+
+.frase{
+	height: 390px;
+	position: relative;
+}
+.radioNone{
+	position: relative;
+	top:-57px;
+}
+.radioNone input[type="radio"]{
+    display: none;
+}
+.radioNone label{
+    color: rgba(0,0,0,0);
+    background: url('/assets/img/mpyc2/m2/recuadro_vacio.png') no-repeat center;
+    background-size: 100%;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 60px;
+    height: 50px;
+    margin: 0px;
+}
+.radioNone input[type="radio"]:checked+ label{
+   
+    background: url('/assets/img/mpyc2/m2/recuadro_marcado.png') no-repeat center;
+    background-size: 100%;
+}
+.subTitulo{
+	text-transform:uppercase; 
+	color:white; 
+	font-weight:bold; 
+	cursor:pointer;
+	font-size:30px;
+	width:280px; 
+	height:50px; 
+	padding:3px 40px;
+	position: absolute;
+	z-index:1;
+	background-color: #152A2D;
+}
+#profesion{
+	border:2px solid #ffae00;
+	top:225px;
+	left:70px;
+}
+#familia{
+	border:2px solid #f846ff;
+	top:-33px;
+	left:240px;
+}
+#comunidad{
+	border:2px solid #a2ff00;
+	top:225px;
+	left:450px;
+}
+#texto1{
+	color:#a2ff00;
+	display: none;
+}
+#texto2{
+	color:#f846ff;
+	display: none;
+}
+#texto3{
+	color:#ffae00;
+	display: none;
+}
+#centro{
+	background-image:url(/assets/img/mpyc2/m2/circulo_triada.png);
+	background-size: 278px;
+	height:280px; 
+	width:274px; 
+	background-repeat: no-repeat !important;
+	margin: 50px auto;
+	/*position:relative; 
+	left:260px; 
+	top:-80px;*/
+}
+#persona{
+	width: 100px;
+	position: relative;
+	top: 20px;
+}
+#contenedorEscenarios{
+	position: relative;
+	/*top: -40px;*/
+}
+#contenedorFrases{
+	width: 630px;
+	height: 300px;
+	position: relative;
+	top: 40px;
+	left: 40px;
+}
+#termometro{
+	background-image:url(/assets/img/mpyc2/m2/termometro.png);
+	background-repeat: no-repeat !important;
+	height: 500px;
+	position: relative;
+	top: -90px;
+	left: 30px;
+}
+.radioSel{
+	width: 50px !important;
+	z-index: 1;
+}
+.radioASel1{
+	position: relative;
+	left: -170px;
+	top:60px;
+}
+.radioASel2{
+	position: relative;
+	left: -170px;
+	top:11px;
+}
+.radioASel3{
+	position: relative;
+	left: -170px;
+	top:-40px;
+}
+.radioASel4{
+	position: relative;
+	left: -170px;
+	top:-91px;
+}
+#textoFrase1{/* Se agrega tamaño de la letra */
+	position: relative;
+	top: 12px;
+	font-size: 14px !important;
+}
+#textoFrase2{/* Se agrega tamaño de la letra */
+	position: relative;
+	top: -40px;
+	font-size: 14px !important;
+}
+#textoFrase3{/* Se agrega tamaño de la letra */
+	position: relative;
+	font-size: 14px !important;
+	top: -95px;
+}
+#textoFrase4{ /* Se agrega tamaño de la letra */
+	position: relative;
+	top: -148px;
+	font-size: 14px !important;
+}
+.textos{
+	font-size: 14px !important;
+	text-align: left;
+	left: 170px;
+}
+
+.contador{
+	top: 8px;
+	right: 18px;
+}
+#fondoCont{
+	height: 54px;
+	width: 85px;
+	
+} 
+.cont{
+	color: #a2ff00;
+    font-family: 'RADIOLAND';
+    font-size: 14px;
+    position: absolute;
+    top: 16px;
+    left: 2px;
+    width: 100%;
+    z-index: 1;
+}
+#dobleEspacioCont{
+	top:-39px !important;
+}
+.dobleEspacioFondoCont{
+	top:-85px !important;
+}
+#titulosFrases{
+	position: relative;
+	left: -20px;
+	top: 10px;
+}
+#titulosFrases_2{
+	position: relative;
+	left: -38px;
+	top: 10px;
+}
+#titulosFrases_3{
+	position: relative;
+	left: -25px;
+	top: 10px;
+}
+#titulosFrases_4{
+	position: relative;
+	left: -58px;
+	top: 10px;
+}
+#titulosFrases_5{
+	position: relative;
+	left: -60px;
+	top: 10px;
+}
+.tituloFrase{
+	color:#00fffc;
+    font-size: 16px;
+}
+.contTituloFrases{     /* Se agrega tamaño de la letra */
+	color:#00fffc;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+.titulosFrases{
+	position: relative;
+	top: 20px;
+	left: 110px;
+}
+.tituloVistas{
+	color: #a2ff00;
+	font-size: 20px;
+	position: relative;
+	top: 30px;
+	font-weight: bold;
+}
+.botonesFrases{
+	position: relative;
+	top: -111px;
+	left: 0px;
+}
+#tituloBotones{
+	color:#00fffc;
+	text-transform: uppercase;
+	position: relative;
+	left: -356px;
+	top:-13px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.botones{
+	background-color: #165255 !important;
+	color: white;
+	width: 250px;
+	/*height: 30px;*/
+	padding:3px;
+	cursor: pointer;
+}
+#contenedorBotones{
+	width: 250px;
+	position: relative;
+	left: 10px;
+	top: -9px;
+}
+.correo{
+	color: #00fffc;
+	position: relative;
+	top: -26px;
+	left: 20px;
+	cursor: pointer;
+}
+.textosVistas{
+	color: white;
+	width: 320px;
+	position: relative;
+	left: 210px;
+	top: 20px;
+	text-align: left;
+}
+#contenedorBV, #contenedorActividadTerm{
+	width: 1000px;
+	max-width: 1000px !important;
+	height: 460px;
+}
+.vistas{
+	width: 600px;
+	position: relative;
+	top: -390px;
+	left: 330px;
+}
+.imagenVistas{
+	position: relative;
+	top: 104px;
+	left: -190px;
+	width: 90px;
+}
+#logoUS{
+	width: 177px;
+	position: relative;
+	left: -360px;
+	top: -26px;
+}
+#contenedorIT{
+	position: relative;
+	top: -30px;
+}
+#imagenCorreo{
+	position: relative;
+	top: 10px;
+	left: -175px;
+}
+.borderSel{
+	border: 1px solid #a2ff00;
+}
+#imagen1{
+	position: relative;
+	left: -30px;
+}
+#imagen2{
+	position: relative;
+}
+#imagen3{
+	position: relative;
+	left: 30px;
+}
+.textoRes{
+	text-align: center;
+	color: white;
+	width: 450px;
+	position: relative;
+	left: 140px;
+	top: -60px;
+}
+#resultadoTotal{
+	color:#00fffc;
+	font-size: 70px;
+	position: relative;
+	top: 130px;
+	font-weight: bold;
+}
+#res{
+	position: relative;
+	top: -100px;
+}
+#tituloResultado{
+	color: #00fffc;
+	text-transform: uppercase;
+	position: relative;
+	top: 10px;
+	font-weight: bold;
+}
+#contenedorPartesTerm{
+	overflow: hidden;
+	position: relative;
+	top: 0px;
+	left: -26px;
+	height: 500px;
+}
+#bolitaTerm{
+	position: relative;
+	top: -130px;
+	left: -2px;
+	z-index: 1;
+}
+#lineaTerm{
+	overflow: hidden;
+	position: relative;
+	top: -585px;
+	z-index: 1;
+}
+#linea{
+	position: relative;
+	top: 340px;
+}
+
+.margenBoton{
+    margin: 0px 20px 10px 0px;
+}
+
+#contenedorVistas{
+	height: 0px;
+}
+
+#termometro{
+	top: -44px;
+}

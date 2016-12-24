@@ -1,0 +1,302 @@
+ .btAddEvent{
+ 	top: 55px !important;
+ 	} 
+.diario{
+	overflow: hidden;
+	max-width: 700px;
+	background: #152a2d;
+	margin: 0 auto;
+	padding: 0;
+  	margin: 30px auto 50px auto;
+
+}
+
+.diario .nav{
+	border-style: solid;
+	border-width: 0px;
+	-moz-border-image: none;
+	-webkit-border-image: none; 
+	-o-border-image: none;
+	border-image: none; 
+}
+
+.diario .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+	background: transparent;
+	color: #f846ff !important;
+	font-weight: bold;
+	border-left: 0;
+	border-radius: 0;
+	-webkit-box-shadow:inset 0 0 5px 1px transparent;
+	box-shadow:inset 0 0 5px 1px transparent;
+}
+.diario .nav-pills li > a{
+	color: white !important;
+	padding: 35px 20px;
+	font-size: 20px;
+	text-align: center;
+	-webkit-box-shadow:inset 0 0 5px 1px #00fffc;
+	box-shadow:inset 0 0 5px 1px #00fffc;
+	border: 1px solid #00fffc;
+	border-radius: 0;
+
+}
+.diario .nav-pills li > a> span{
+	float: left;
+	color: #00fffc;
+	position: relative;
+	top: 10%;
+}
+.diario a:hover{
+	background: transparent !important;
+	color: #f846ff;
+}
+.diario .nav-stacked > li + li {
+  margin-top: 0 !important;
+  margin-left: 0;
+ }
+
+ .diario .tab-content{
+ 	padding: 0px;
+ }
+
+ .f-portada{
+ 	height: 250px;
+ 	width: 90%;
+	margin: 92px auto 0 auto;
+	background: white;
+
+ }
+ .f-perfil{
+  width: 180px;
+  height: 180px;
+  position: relative;
+  top: -80px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: white;
+ }
+ .f-perfil img{
+ 	border-radius: 50%;
+ }
+
+ .nombre-portada{
+	width: 100%;
+	text-align: center;
+	color: #00fffc;
+	font-weight: bold;
+	font-size: 30px;
+	position: relative;
+  	top: -60px;
+ }
+ .input-lg{
+ 	width: 95%;
+ 	margin: 0 auto;
+ }
+
+ .input-lg.out{
+ 	width: 97.5% !important;
+ }
+
+
+ .input-xs{
+ 	width: 31%;
+ }
+
+ .uploader{
+
+ }
+
+ #perfil form{
+ 	text-align: center;
+ }
+
+ .f-perfil-u, .f-portada-u{
+ 	width: 88%;
+  background: url('../img/load-img_.png') no-repeat center rgba(162, 255, 0, 0.33);
+  height: 140px;
+  margin-right: 10px;
+  float: right;
+  cursor: pointer;
+
+
+ }
+
+ .f-portada-u{
+ 	overflow: hidden;
+ }
+ .f-perfil img, .f-portada img{
+ 	width: 100%;
+ 	height: 100%;
+ 	background: transparent;
+ }
+ .f-perfil-u img, .f-portada-u img{
+ 	width: 100%;
+ 	height: 100%;
+ 	background: transparent;
+ }
+
+#amistad,
+#noviazgo,
+#personal,
+#familia{
+	height: 307px;
+}
+
+#momentos{
+	height: 615px;
+}
+
+.gallery-link{
+	padding: 10px;
+	position: relative;
+
+}
+
+.gallery-link span{
+	position: absolute;
+	top: 45%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	color: #00fffc;
+	font-weight: bold;
+	font-size: 22px;
+}
+.gallery-link img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.gallery-link.empty{
+	background: url('../img/load-img.png') no-repeat center;
+	
+}
+
+.gallery-link.empty span{
+	top: 70%;
+}
+
+#momentos.gallery-link.empty span{
+	top: 60%;
+}
+
+
+.gallery-img, .gallery-upload{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin: 5px;
+
+}
+.gallery-img > img, .gallery-upload img{
+	width: 100%;
+	height: 100%;
+}
+.gallery{
+	width: 100%;
+	text-align: left;
+	padding: 20px;
+}
+
+.gallery-upload{
+	background: url('../img/load-img.png') no-repeat center;
+	background-size: contain;
+}
+
+.loading{
+	background: url("../img/loader.gif") no-repeat center  rgba(162, 255, 0, 0.33);
+}
+
+.timeline-diario{
+	border: 0 !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none!important;
+}
+.tabbable,.diario .nav  {
+	margin-bottom: 0px !important;
+}
+.diario-lg{
+	max-width: 80% !important;
+}
+.emocion{
+	display: inline-block;
+	width: 5.5%;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	margin-left: 2%;
+}
+.emocion img{
+	width: 60px;
+	display: block;
+	margin: 0 auto;
+}
+
+.emocion span{
+	width: 100%;
+	text-align: center;
+	font-size: 10px;
+}
+
+.diario canvas{
+	margin: 0 auto
+}
+
+.curva-controles{
+	overflow: hidden;
+
+
+}
+.historia .input{
+	width: 100px;
+}
+
+.historia .btn{
+	margin: 10px auto !important;
+}
+
+.historia{
+	text-align: right;
+	  padding: 0 10px;
+}
+
+.tablero-stats{
+	
+}
+.stat-title{
+	text-align: center !important;
+	width: 100%;
+	font-size: 20px;
+	color: #00fffc !important;
+	position: relative;
+	top: 23px;
+}
+.stat-title, .stat{
+	display: inline-block;
+	text-align: center;
+	color: white;
+
+}
+.stat{
+	border-left: 3px solid #00fffc;
+	  height: 71px;
+	  width: 100%;
+	  position: relative;
+
+}
+.stat span{
+	width: 100%;
+	text-align: center;
+	display: block;
+
+}
+.stat .stat-score{
+	position: absolute;
+	bottom: 10px;
+	color: #a2ff00;
+	font-weight: bold;
+}
+.tablero{
+	  height: 506px !important;
+}

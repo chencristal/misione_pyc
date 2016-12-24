@@ -1,0 +1,64 @@
+@media only screen and (max-width: 736px) and (min-width: 480px){
+
+	#animacion-container iframe{
+		width: 100% !important;
+
+	}
+	#animacion-container input{
+		left: 40% !important;
+		margin: 0px auto !important;
+
+	}
+
+	.container.principal{
+		margin: 10px auto !important;
+	}
+
+	.home{
+		position: relative;
+		height: initial !important;
+	}
+
+	#tituloBiblioteca{
+		width: 30% !important;
+	    height: 12% !important;
+	    background-size: 100% !important;
+	    background-position: 0px 0px !important;
+	    position: absolute !important;
+	    top: 9% !important;
+	    left: 22% !important;
+	}
+
+	#tituloNave{
+		width: 30% !important;
+	    height: 12% !important;
+	    background-size: 100% !important;
+	    background-position: 0px 0px !important;
+	    position: absolute !important;
+	    top: 9% !important;
+	    left: 57% !important;
+	}
+
+	#misiones {
+	    width: 33% !important;
+	    height: 62% !important;
+	    position: absolute !important;
+	    top: 29% !important;
+	    left: 55% !important;
+	    background-size: 100% !important;
+	    background-position: 0px 0px !important;
+	}
+
+	#biblioteca {
+	    width: 20% !important;
+	    height: 51% !important;
+	    position: absolute !important;
+	    top: 22% !important;
+	    left: 26% !important;
+	    background-size: 100% 100% !important;
+	}
+
+
+
+
+}

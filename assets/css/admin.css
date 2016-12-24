@@ -1,0 +1,209 @@
+html, body{
+	padding: 0;
+	height: 100%;
+}
+
+.admin-login-cnt {
+	text-align:center;
+}
+
+.admin-login {
+	width:300px;
+	margin:auto;
+	margin-top:100px;
+	border:1px solid black;
+	text-align:left;
+	border-radius:20px;
+	background-color:rgb(204,204,204);
+}
+.admin-login h1 {
+	display:block;
+	width:100%;
+	color:white;
+	background-color:black;
+	padding:20px;
+	font-family:Helvetica,arial;
+	font-size:32px;
+	margin:0;
+	margin-bottom:40px;
+	text-align:center;
+	border-radius:20px;
+}
+.admin-login input {
+	background-color:white;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius:10px;
+	border:0px;
+	margin-left:20px;
+	margin-right:20px;
+	width:85%;
+	font-family:helvetica,arial;
+	font-size:18pt;
+	box-sizing:border-box;
+	padding:10px;
+}
+.admin-login input[type=submit], .button{
+	background-color:rgb(153,153,153);
+	color:white;
+	margin-top:40px;
+
+}
+.admin-details-pane {
+	background-color:white;
+	color:black;
+	width:15%;
+	display:inline-block;
+	float:left;
+	height: 100%;
+	text-align:left;
+	padding:20px;
+
+}
+.admin-filter-selector b {
+	display:block;
+	text-align:left;
+}
+.admin-filter-selector {
+	background-color:rgba(28, 61, 66, 1);
+	color:white;
+	width:20%;
+	display:inline-block;
+	float:left;
+	height: 100%;
+	text-align:right;
+	padding:20px;
+	
+}
+.admin-filter-selector select, .admin-filter-selector input, a.button{
+	width:100%;
+	font-family:Helvetica,arial;
+	font-size: 12pt;
+	background-color:rgb(204,204,204);
+	margin-top:20px;
+	border-radius:10px;
+}
+.admin-filter-selector input[type=submit], .button, a.button {
+	display: inline-block;
+	width:auto;
+	padding-left:20px !important;
+	padding-right:20px !important;	
+	background-color:white  !important;
+	color:black;
+	border:0;
+
+	padding: 2px 6px 3px;
+}
+a.button{
+	cursor: pointer;
+	text-decoration: none;
+
+}
+.admin-action {
+	background-color:rgba(28, 61, 66, 1);
+	color:white;
+	padding:3px;
+	padding-left:10px;
+	padding-right:10px;
+	margin:3px;
+	display:inline-block;
+	border-radius:10px;
+	font-size:10pt;
+	border:0px solid white;
+}
+.admin-action:hover{
+	color: white;
+}
+.admin-resultset tbody tr td {
+	border:0;
+	padding:5px;
+}
+.admin-resultset tbody tr:nth-child(2n) {
+	background-color:rgb(230,230,230);
+}
+.admin-resultset {
+	border:0;
+}
+
+.admin-main {
+	background-color:white;
+	color:black;
+	width:80%;
+	display:inline-block;
+	float:left;
+}
+.admin-map-main {
+	background-color:white;
+	color:black;
+	width:84%;
+	display:inline-block;
+	float:left;
+}
+.admin-abc a {
+	color:rgb(204,204,204);
+}
+.admin-abc {
+	background-color:white;
+	color:rgb(102,102,102);
+	width: 56%;
+	display:inline-block;
+	float:left;
+	border:1px solid rgb(102,102,102);
+	border-left:0px;
+	border-right:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:20px;
+	font-family:Helvetica,arial;
+	font-size:14pt;
+	/*letter-spacing:0.0279em;*/
+	white-space:nowrap;
+}
+.admin-search {
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+
+}
+.admin-search input::-webkit-input-placeholder {
+	color:white;
+} 
+.admin-search input {
+	background-color: rgb(204,204,204);
+	border-radius: 6px;
+	border: 0px;
+	font-size: 18pt;
+	color: white;
+}
+.admin-top-btn {
+	padding:20px;
+}
+.admin-top {
+	text-align:right;
+}
+.admin-resultset{
+	width:100%;
+}
+.admin-resultset th {
+	padding:10px;
+}
+/* https://www.youtube.com/watch?v=bIVvkREsUhA */
+
+.islander { 
+    font-family: Helvetica,arial;
+    font-size: 12pt;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.advertencia{
+	color: #00fffc;
+	text-align: center;
+	margin: 30px auto;
+	font-size: 12px;
+	display: none;
+
+}

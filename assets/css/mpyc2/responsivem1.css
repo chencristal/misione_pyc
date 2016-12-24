@@ -1,0 +1,78 @@
+body{
+		overflow-y: hidden;
+	}
+@media only screen and (max-width: 736px) and (min-width: 480px){
+
+	
+	#animacion-container iframe{
+		width: 100% !important;
+
+	}
+	#animacion-container input{
+		left: 40% !important;
+		margin-bottom: 20px;
+
+	}
+
+	.container.principal{
+		margin: 10px auto 20px auto !important;
+	}
+
+	.elementoSel {
+	    width: 35%;
+	    padding: 5px !important;
+	}
+
+	#contadorData {
+	    top: 27% !important;
+	    left: 86% !important ;
+	    position: absolute !important;
+	    width: auto;
+	}
+
+	#continuar1{
+		position: relative;
+		top: 20px;
+	}
+
+	.elementoASel {
+	    width: 75% !important;
+	    position: initial !important;
+	}
+
+	#contQueTeHaceFeliz{
+		text-align: center !important;
+		padding: 15px !important;
+	}
+
+	#continuar2 {
+	    display: initial !important;
+	    position: initial !important;
+	    margin-left: 15px;
+	}
+
+	#atras1 {
+	    display: initial !important;
+	    /* position: relative !important; */
+	    left: 0px !important;
+	    top: 7px;
+	}
+	#parte3 {
+    	height: auto;
+	    padding: 10px 0px 0px !important;
+	}
+
+	.elementoBSel {	
+	    width: 26%;
+	}
+
+	#animacion-container2 iframe{
+		width: 100% !important;
+
+	}
+	#animacion-container2 input{
+		left: 40% !important;
+		margin-bottom: 20px;
+
+	}
+}

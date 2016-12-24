@@ -1,0 +1,33 @@
+@media only screen and (max-width: 736px) and (min-width: 480px){
+
+	#ContPrincipal {
+	    width: 100%;
+        position: relative;
+        height: 350px;
+
+	}
+
+	.tituloMapa {
+	    font-size: 29px;
+	}
+
+	#tableroGeneral {
+	    top: 47%;
+	    left: 40%;
+	    transform: scale(0.6);
+	}
+
+	.botonHome {
+	    position: absolute;
+	    top: initial;
+	    left: initial;
+	    bottom: 20px;
+	    right: 10px;
+	}
+
+	html{
+		font-size: initial !important;
+
+	}
+
+}

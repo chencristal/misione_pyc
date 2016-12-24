@@ -1,0 +1,230 @@
+@media only screen and (max-width: 736px) and (min-width: 480px){
+	
+	.container.principal{
+		margin: 10px auto !important;
+	}
+
+	#test-atencion form{
+		padding: 20px 10px;
+	}
+
+	.form fieldset {
+    	padding: 0px 0px;
+	}
+
+	.input{
+		width: 90px;
+	}
+
+	#continuar1{
+		position: relative;
+		top: -20px;
+	}
+
+	#imgAnHombre{
+		width: 50%;
+
+	}
+
+	.imagenCentro{
+		left: 0px;
+	}
+
+	.imagenesGirando {
+    	left: 20%;
+    	top: 70%;
+	}
+
+	#bliss{
+		display: none !important;
+	}
+
+	.HojaImg {
+
+	    background-size: 100% !important;
+	    width: 40%;
+	    height: 75%;
+	}
+
+	#HojaUrgente {
+	    left: -5%;
+	    top: 20%;
+	}
+
+	#HojaImportante {
+	    left: 50%;
+	    top: 20%;
+
+	}
+
+	#HojaUrgente img, #HojaImportante img{
+		width: 25%;
+		height: auto;
+	}
+
+	#imgAn10 {
+	    left: 37%;
+	    top: 47%;
+	}
+	#imgAn11 {
+	    left: 60%;
+	    top: 25%;
+	}
+	#imgAn12 {
+	    left: 48%;
+	    top: 70%;
+	}
+	#imgAn13 {
+	    left: 10%;
+	    top: 19%;
+	}
+	#imgAn14 {
+	    left: 10%;
+	    top: 69%;
+	}
+	#imgAn15 {
+	    left: 49%;
+	    top: 69%;
+	}
+	#imgAn16 {
+	    left: 14%;
+	    top: 22%;
+	}
+	#imgAn17 {
+	    left: 36%;
+	    top: 47%;
+	}
+	#imgAn18 {
+	    left: 57%;
+	    top: 22%;
+	}
+
+	#Hombre{
+		width: 50%;
+		height: auto;
+		left: 20%;
+		top: 60px;
+	}
+
+	#preguntaBlizz{
+		top: 0px;
+	}
+
+	#emergenteImportante{
+		height: 100%;
+	}
+
+	#emergenteImportante > div {
+	    width: 85%;
+	    padding: 1px;
+	    margin: 0px auto;
+	    top: 10%;
+	}
+
+	#emergenteImportante{
+		height: 100%;
+	}
+	
+	#emergenteUrgente > div {
+	    width: 85%;
+	    padding: 1px;
+	    margin: 0px auto;
+	    top: 10%;
+	}
+
+	#contenedor-tareas{
+		padding: 15px 0px !important;
+	}
+
+	#contenedor-tareas > div{
+
+		width: 100%;	
+	}
+
+	#subtitulos{
+		display: flex;
+	}
+
+	#subtitulos .col-md-6{
+		width: 50%;
+		display: flex;
+	}
+
+	#subtitulos > .col-md-6{
+		display: initial !important;
+	}
+
+	#subtitulos .col-md-3{
+		width: 25%;
+		display: flex;
+	}
+
+	.pandingRadioGroup{
+		padding: 0px 25px;
+
+	}
+
+	.contenedorTareas .col-md-12{
+		display: flex;
+	}
+
+	.contenedorTareas .col-md-12 .col-md-6{
+		width: 50%;
+	}
+
+	.contenedorTareas .col-md-12 .col-md-3{
+		width: 25%;
+		display: flex;
+	}
+
+	#form-mision1 .col-md-6{
+		width: 50%;
+	}
+
+	.radioM6 label {
+	    height: 46px;
+	}
+
+	.radioGroupM6 {	    
+	    width: 22%;
+        top: 61%;
+	}
+
+	.titulo-naranja {
+       	font-size: 16px;
+	}
+
+	.fila{
+		display: flex;
+	}
+
+	.colBoton {
+	    height: 59px;
+	}
+
+	#contenedor-matriz{
+		padding: 15px 5px;
+	}
+
+	.titulos-superiores{
+		display: flex;
+	}
+
+	.tituloEisenhower{
+		left: 25% !important;
+	}
+
+	#animacion-container2 iframe{
+		width: 100% !important;
+
+	}
+	#animacion-container2 input{
+		left: 40% !important;
+
+	}
+
+
+
+
+}
+

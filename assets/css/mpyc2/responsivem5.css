@@ -1,0 +1,206 @@
+@media only screen and (max-width: 736px) and (min-width: 480px){
+
+	#video iframe{
+		width: 100% !important;
+
+	}
+	#video input{
+		left: 40% !important;
+		margin-bottom: 20px;
+
+	}
+
+	.container.principal{
+		margin: 10px auto !important;
+	}
+
+	#dragElementos{
+		top: 0px !important;
+	}
+
+	#dragElementos form{
+		padding: 5px !important;
+	}
+
+	#dragElementos form >.col-md-3{
+		width: 25%;
+		float: left;
+	}
+	#dragElementos form >.col-md-9{
+		width: 75%;
+		float: left;
+	}
+
+	#dragElementos form >.col-md-9 img{
+		left: 0px !important;
+		top: -20px !important;
+	}
+
+	#timer{
+		left: 0px !important;
+		top: -63px !important;
+	}
+
+	#dragElementos form >.col-md-9 .col-md-3{
+		width: 33%;
+		float: left;
+		left: 0px !important;
+		top: -20px !important;
+		padding: 7px;
+	}
+
+	#dragElementos form >.col-md-9 .col-md-3 img{
+		width: 100% !important;
+		height: auto !important;
+	}
+
+	#tituloDrag{
+		width: 100% !important;
+		font-size: 2.5vw !important;
+	}
+
+	#elementosOver{
+		width: 400% !important;
+	}
+
+	#elementos{
+		width: 25% !important;
+		left: 0px !important;
+		padding: 7px;		
+	}
+
+	#continuar1{
+		top: 0px !important;
+		left: 0px !important;
+	}
+
+	.elementosDrag {
+	    margin-bottom: 5px !important;
+	    font-size: 2.5vw;
+	}
+
+	.cajaDrop {
+	    font-size: 2.5vw;
+	}
+
+	.cajaDrop label{
+		margin: 2px !important;
+	}
+
+	#boton-down img{
+		left: -10% !important;
+	}
+
+	#boton-up img{
+		left: 10% !important;
+	}
+
+	#dragImgs{
+		top: 0px !important;
+		height: auto !important;
+	}
+
+	#cont2{
+		padding: 5px !important;
+	    height: 58vw !important;
+	}
+
+	#cont2 .col-md-5{
+		width: 41.6%;
+		float: left;
+	}
+
+	#instrucciones {
+	    padding: 5px;
+	    width: 100%;
+	    top: 0px;
+	    left: 0px;
+	    font-size: 2vw;
+	    position: relative;
+	}
+
+	#cont2 .col-md-5 img{
+		top: 0px !important;
+		margin-top: 5px;
+		width: 100%;
+	}
+
+	#cont2 .col-md-7{
+		width: 58.3%;
+		float: left;
+	}
+
+	#cont2 .col-md-7 .col-md-3{
+		width: 33.33%;
+		float: left;
+		padding: 5px;
+	}
+
+	#cont2 .col-md-7 .col-md-3 img{
+		width: 100%;
+		left: 0px !important;
+	}
+
+	#cont2 .col-md-7 .col-md-3 img:last-child{
+		width: 33%;
+		top: 5px !important;
+	}
+
+	#dropImg {
+	    background-position: 75% 0px !important;
+	    background-size: auto 100% !important;
+	    top: 60% !important;
+	    height: 30vh !important;
+	}
+
+	.centroDrop1 {
+		position: absolute !important;
+	    left: 59% !important;
+	    top: 0% !important;
+	    width: auto !important; 
+	    height: 126% !important;
+	}
+
+	#continuar2 {
+	    position: absolute !important;
+	    left: initial !important;
+	    top: initial !important;
+	    right: 10px !important;
+	    bottom: 10px !important;
+	}
+
+	#preguntaAsertiva{
+		top: 0px !important;
+	}
+
+	#preguntaAsertiva form{
+		padding: 5px !important;
+		height: auto !important;
+		max-height: 10000px !important; 
+	}
+
+	#preguntaAsertiva form label{
+		font-size: 20px !important;
+	}
+
+	#preguntaAsertiva form .col-md-12 p{
+		width: 100% !important;
+		left: 0px !important;
+	}
+
+	#textoAsertivo{
+		width: 100% !important;
+	}
+
+	#continuar3 {
+	    left: 0 !important;
+	    top: 0 !important;
+	    margin: 15px auto 0px !important;
+	}
+
+
+
+
+
+
+}

@@ -1,0 +1,323 @@
+.cubo{
+	width: 100%;
+	height: 550px;
+  margin-top: 65px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.lado,.vision img, .mision img{
+	cursor: pointer;
+}
+.lado img{
+	width: 240px;
+	height: 240px;
+}
+ .vision img, .mision img{
+ 	width: 150px;
+	height: 150px;
+ }
+
+.lado, .vision, .mision, .info{
+	position: absolute;
+
+}
+
+.vision{
+  left: 40%;
+top: 28%;
+}
+.mision{
+  top: 44%;
+  left: 49%;
+}
+
+.personal{
+  left: 20%;
+  top: 14%;
+}
+
+.social{
+  top: -6%;
+  left: 41%;
+}
+.social img{
+  height: 170px;
+}
+.afectivo{
+top: 11%;
+  left: 62%;
+}
+.academico{
+  top: 46%;
+  left: 61%;
+
+}
+
+.material{
+  top: 73%;
+  left: 43%;
+}
+.material img{
+  height: 170px;
+}
+.familiar{
+  top: 48%;
+  left: 26%;
+}
+
+.info{
+  top:5%;
+  left: 5%;
+}
+.info a{
+  color:white;
+  font-size: 20px;
+}
+
+.info a span{
+  width: 39px;
+  height: 39px;
+  background: rgba(248, 70, 255, 0.41);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 1px solid #f846ff;
+  font-family: impact;
+}
+
+.info-text{
+  background: #152a2d;
+  color: white;
+  width: 350px;
+  height: 361px;
+  padding: 30px;
+  text-align: justify;
+  position: relative;
+  top: 10px;
+  z-index: 2;
+  display: none;
+}
+
+.upload-container{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.upload{
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: url('../img/load-img.png') no-repeat center;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.loading{
+  background: url("../img/loader.gif") no-repeat center  rgba(162, 255, 0, 0.33);
+}
+
+.success{
+	background: url("../img/success.png") no-repeat center;
+}
+
+.historico{
+  text-align: left;
+}
+.historico a.ico{
+  width: 50px;
+  height: 50px;
+  background: url('../img/r_.png') no-repeat center;
+  background-size: contain;
+  display: block;
+  transform: scale(-1);
+  -webkit-transform: scale(-1);
+  -moz-transform: scale(-1);
+  -ms-transform: scale(-1);
+  -o-transform: scale(-1);
+}
+
+.historico-lista{
+  width: 350px;
+  height: 361px;
+  padding: 30px;
+  position: absolute;
+  z-index: 2;
+  top: 42px;
+  left: -360px;
+  background: #152a2d;
+  display: none;
+}
+
+.historico-lista ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.historia-date{
+  color: #00fffc;
+}
+.historia-item{
+  color: white;
+}
+.pregunta-principal{
+  display: block;
+  color: white;
+  font-weight: normal;
+}
+.pregunta label.option {
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  color: white;
+  font-weight: normal;
+}
+.pregunta label.texto-pregunta {
+  margin: 0 auto;
+  height: 67px;
+  color: #00fffc;
+  font-weight: normal;
+    width: 47%;
+    text-align: left;
+}
+.pregunta label .radio {
+  display: none;
+}
+.pregunta .radio + label{
+display: block;
+  width: 40px;
+  height: 40px;
+  background: url('../img/check_off.png') no-repeat center;
+  background-size: 100%;
+  margin: 0 auto;
+}
+.pregunta .radio:checked + label{
+  background: url('../img/check_on.png') no-repeat center;
+  background-size: 100%;
+}
+
+.add-pregunta-container{
+  text-align: left;
+  width:80%;
+   margin-left: 6%;
+}
+.add-pregunta{
+  color: white;
+  display: block;
+  padding: 20px 20px;
+}
+
+.add-pregunta:hover,.add-pregunta:visited, .add-pregunta:focus, .matrizEisenhower, .matrizEisenhower:hover{
+  color: white;
+  text-decoration: none;
+
+}
+.preguntas-container{
+    height: 500px;
+  overflow: auto;
+}
+.add-pregunta{
+  text-decoration: none;
+}
+.plus{
+  font-size: 30px;
+  font-family: impact;
+  vertical-align: middle;
+  width: 40px;
+  height: 42px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 25px;
+  background: rgba(156, 39, 176, 0.48);
+  border-radius: 50%;
+}
+.plus.ok{
+  font-size: 20px;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  color: white;
+  padding: 5px;
+  margin-left: 25px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+#nueva-pregunta{
+  width: 50%;
+}
+
+#iframe-container {
+  width: 65%;
+  margin: 8px auto;
+  position: relative;
+  padding-bottom: 40.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+#iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.newRowBtn {
+  color:white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.newRowBtn span{
+  width: 39px;
+  height: 39px;
+  background: rgba(248, 70, 255, 0.41);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 1px solid #f846ff;
+  font-family: impact;
+  position: relative;
+  left: -500px;
+}
+
+
+.info-text-no-height{
+  background: #152a2d;
+    color: white;
+    width: 350px;
+    padding: 30px;
+    text-align: justify;
+    position: relative;
+    top: 10px;
+    z-index: 2;
+    display: none;
+}
+
+#matrizEisenhower{
+  display: none;
+}
+
+#contenedorMatriz{
+  margin: 0 12px !important;
+}
+
+
+
+

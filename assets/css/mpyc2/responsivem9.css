@@ -1,0 +1,347 @@
+@media only screen and (max-width: 736px) and (min-width: 480px){
+
+	#video1 iframe{
+		width: 100% !important;
+
+	}
+	#video1 input{
+		left: 40% !important;
+		margin-bottom: 20px;
+
+	}
+
+	.container.principal{
+		margin: 10px auto !important;
+	}
+
+	#video2 iframe{
+		width: 100% !important;
+
+	}
+	#video2 input{
+		left: 40% !important;
+		margin-bottom: 20px;
+
+	}
+	
+	#video3 iframe{
+		width: 100% !important;
+
+	}
+	#video3 input{
+		left: 40% !important;
+		margin-bottom: 20px;
+
+	}
+
+	#colInformacion{
+		width: 100% !important;
+	}
+
+	#bliss{
+		display: none;
+	}
+
+	#textoMadera {
+	    position: absolute;
+	    left: 0;
+	}
+
+	#contenedorDrag .col-md-5{
+		width: 62.5%;
+		float: left;
+	}
+
+	#contenedorDrag .col-md-3{
+		width: 37.5%;
+		float: left;
+	}
+
+	#maderaBase {
+	    top: 182px;
+	    left: 38px;
+	    width: 125px;
+	}
+
+	#maderaComplemento {
+	    top: 86px;
+	    left: 131px;
+	}
+
+	.maderaComplemento {
+	    width: 144px !important;
+	}
+
+	.madera {
+	    left: 35%;
+
+	}
+
+	.maderaComplemento2 {
+	    width: 125px !important;
+	    top: 98px !important;
+	    left: 125px !important;
+	}
+
+	#cintas {
+	    width: 119px;
+	    top: 189px;
+	    left: 77px;
+	    z-index: 60;
+	    
+	}
+
+	#grapas {
+	    width: 119px;
+	    top: 190px;
+	    left: 67px;
+	}
+
+	#colbon {
+	    width: 119px;
+	    top: 177px;
+	    left: 93px;
+	}
+
+	#blissRadar {
+		position: relative;
+		left: 0px;
+		top:  0px;
+		width: 100%;
+	}
+
+	#blissRadar div {
+	    width: 95%;
+	    padding: 10px 20px 20px;
+	    margin: 5px auto;
+
+	}
+
+	#blissRadar img{
+		display: none;
+	}
+
+	#panelBrujulas{
+		position: relative;
+		top: 0px;
+		left: 0px;
+		margin-top: 20px auto;
+		width: 100%
+	}
+
+	#panelBrujulas .col-md-3{
+		width: 25%;
+		float: left;
+	}
+
+	#actividadRadares{
+		background: url();
+		height: auto;
+	}
+
+	#textoRadar{
+		height: 80px;
+	}
+
+	#siguienteRadar{
+		position: relative;
+		top: 0px;
+		left: 0px;
+		margin: 10px;
+	}
+
+	.HUD fieldset .col-md-2{
+		width: 16.666%;
+		float: left;
+	}
+
+	.HUD fieldset .col-md-10{
+		width: 83.333%;
+		float: left;
+	}
+
+	#A01 {
+	    width: 10%;
+	    height: 16%;
+	    top: 2%;
+	    left: 88%;
+	}
+
+	#A02 {
+	    width: 8%;
+	    height: 13%;
+	    top: 90%;
+	    left: 11%;
+	}
+
+	#A03 {
+	    width: 8%;
+	    height: 13%;
+	    top: 47%;
+	    left: 6%;
+	}
+
+	#A04 {
+	    width: 10%;
+	    height: 16%;
+	    top: 89%;
+	    left: 25%;
+	}
+
+	#A05 {
+	    width: 10%;
+	    height: 16%;
+	    top: 76%;
+	    left: 21%;
+	}
+
+	#A06 {
+	    width: 10%;
+	    height: 17%;
+	    top: 19%;
+	    left: 0%;
+	}
+
+	#A07 {
+	    width: 6%;
+	    height: 10%;
+	    top: 20%;
+	    left: 22%;
+	}
+
+	#A08 {
+	    width: 6%;
+	    height: 10%;
+	    top: 9%;
+	    left: 72%;
+	}
+
+	#A09 {
+	    width: 5%;
+	    height: 9%;
+	    top: 6%;
+	    left: 6%;
+	}
+
+	#A10 {
+	    width: 20%;
+	    height: 16%;
+	    top: 62%;
+	    left: 50%;
+	}
+
+	.contedorBote {
+	    top: 26%;
+	    left: 35%;
+	    width: 36%;
+	    height: 78%;
+	    background: rgba(0,0,0,0);   
+	}
+
+	#bote{
+		width: 100% !important;
+		height: auto !important;
+	}
+
+	#aguaBote {
+	    top:70%;
+	    left: -12%;
+	    width: 127%;
+	    animation-iteration-count: 0;
+	    -webkit-animation-iteration-count: 0;
+	}
+
+	#actividadA{
+		margin: 0px auto 23px auto !important;
+	}
+
+	#emergenteA {
+	    height: 100%;
+   	}
+
+   	#blissMotor{
+   		display: none;
+   	}
+
+   	#actividadMotor{
+   		padding: 10px;
+   		margin-bottom: 20px !important;
+   	}
+
+   	#actividadMotor fieldset{
+   		padding: 0px;
+   	}
+
+   	#actividadMotor #colInformacion{
+   		margin-top: 0px;
+   		height: 55px;
+   	}
+
+   	#actividadMotor #colInformacion label{
+   		top: 0px !important;
+   	}
+
+   	#lupa {
+	    top: -30px;
+	    left: 0px;
+	}
+
+	#contenedorLupa{
+		height: 420px;
+	}
+
+	#fondoAzul1 {
+	    top: 81px;
+	    left: 1%;
+	    width: 190px;
+	}
+
+	#fondoAzul2 {
+	    top: 200px;
+	    left: 38%;
+	    width: 190px;
+	}
+
+	#imagAceite {
+	    left: 9%;
+	    top: 99px;
+	    width: 100px;
+	}
+
+	#imagGasolina {
+	    left: 46%;
+	    top: 226px;
+	    width: 100px;
+	}
+
+	#imagMotor {
+	    left: 60%;
+	    width: 200px;
+	}
+
+	#areaPrenderMotor {
+    	left: 33%;
+	}
+
+	#HUDMotor {
+	    top: 114px;
+	    left: -21%;
+	}
+
+	#contenedorPrenderMotor{
+		height: 420px;	
+	}
+
+	#siguienteMotor {
+	    left: 75%;
+	}
+
+	#emergenteA > div {
+    	width: 93%;
+	}
+
+	#emergenteMotor > div {
+    	width: 93%;
+	}
+
+}

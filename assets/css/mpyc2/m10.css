@@ -1,0 +1,577 @@
+body{
+	overflow-y: hidden;
+}
+
+#tituloCamino{
+	color: white;
+	position: relative;
+	top: -20px;
+}
+#subtituloCamino{
+	color: #00fffc;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	top: -10px;
+}
+#textoCamino{
+	color: white;
+	position: relative;
+	top: 08px;
+	left: 60px;
+	width: 250px;
+}
+#subtituloCamino2{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+	background-color: #152A2D;
+	position: relative;
+	left: 690px;
+	top: 10px;
+	padding:10px;
+}
+
+#contenedorFlechas{
+	width: 100%;
+	display:table;
+}
+
+.centrarVertical{
+	display: table-cell;
+    vertical-align: middle;
+}
+#camino{
+	width: 400px;
+	height: 384px;
+	position: relative;
+	left: -300px;
+	top:50px;
+}
+#botonContinuar{
+	position: relative;
+	top: 38px;
+}
+#botonSi{
+	position: relative;
+	top: 10px;
+	width: 140px;
+}
+.tituloMensaje{
+	color: #ffae00;
+	font-size: 30px;
+	margin-top: 12px;
+}
+.textoMensaje{
+	color: white;
+}
+.tituloCuadroFlecha{
+	color: #00fffc;
+	font-weight: bold;
+	font-size:20px;
+}
+.tituloCuadroFlecha2{
+	color: #ffae00;
+	font-weight: bold;
+	font-size:20px;
+}
+.radioBotones{
+	border-radius: 100px;
+	border: 1px solid #00fffc;
+	background-color: #152A2D !important;
+	padding:4px;
+}
+.radioBotones:focus{
+	color: white;
+}
+.borderBoton{
+	border: 2px solid #ffae00;
+}
+.fondoAO{
+	background-color: #152A2D;
+}
+.mensajeFinal{
+	color: #00fffc;
+	text-align: center;
+	width: 400px;
+	position: relative;
+	left: 190px;
+}
+.tituloFinal{
+	color: #ffae00;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.cuadroFlecha{
+	margin: 0px auto;
+	position: relative;
+	text-align: center;
+	display: none;
+	padding: 10px 20px;
+	height: 321px;
+	top:-4px;
+
+}
+
+.dialogoFlecha{
+	margin: 0px auto;
+	position: relative;
+	text-align: center;
+	display: none;
+	padding: 10px 20px;
+	/*height: 430px;*/
+}
+
+#cuadroFlecha1{
+	width: 900px;
+	height: 390px;
+	
+	/*display: none;*/
+}
+#cuadro2Flecha1{
+	width: 700px;
+	/*height: 450px;*/
+	/*display: none;*/
+}
+#contenedorBotonesFlecha{
+	width: 415px;
+	position: relative;
+	top: 80px;
+	left: 90px;
+}
+#contenedorMensajes1{
+	width: 370px;
+    position: relative;
+    left: 570px;
+    top: -90px;
+}
+/*#imagen1Cuadro1, #imagen1Cuadro2, #imagen1Cuadro3, #imagen1Cuadro4, #imagen1Cuadro5{
+	top: 120px;
+	left: 130px;
+}
+#imagen2Cuadro1, #imagen2Cuadro2, #imagen2Cuadro3, #imagen2Cuadro4, #imagen2Cuadro5{
+	position: relative;
+	top: -137px;
+	left: 860px;
+}
+#imagen2Cuadro1, #imagen2Cuadro2, #imagen2Cuadro3, #imagen2Cuadro4,#imagen1Cuadro1, #imagen2Cuadro5, #imagen1Cuadro2, #imagen1Cuadro3, #imagen1Cuadro4, #imagen1Cuadro5{
+	display: none;
+}
+#mensajeCuadroFlecha1, #mensajeCuadroFlecha2, #mensajeCuadroFlecha3, #mensajeCuadroFlecha4, #mensajeCuadroFlecha5{
+	display: none;
+}*/
+
+#texto1Cuadro1{
+	position: relative;
+	top: 20px;
+	left: 270px;
+	width: 350px;
+}
+#texto2Cuadro1{
+	width: 450px;
+	position: relative;
+	left: 240px;
+	top: 30px;
+}
+#texto3Cuadro1{
+	width: 450px;
+	position: relative;
+	left: 220px;
+	top: 56px;
+}
+#texto4Cuadro1{
+	width: 415px;
+	position: relative;
+	left: 250px;
+	top: 87px;
+	text-align: center;
+}
+#texto5Cuadro1{
+	width: 460px;
+	position: relative;
+	left: 120px;
+	top: 12px;
+	text-align: center;
+	font-size: 19px;
+}
+#botonCuadro1{
+	/*display:none;*/
+	position:relative; 
+	margin: 13px;
+	left: -32px;
+
+}
+#boton2Cuadro1{
+	position: relative;
+	top: 11px;
+	left: -15px;
+}
+#imagenCuadro1{
+	position: relative;
+	top: -90px;
+	left: -162px;
+}
+.imagenFlechas{
+	cursor: pointer;
+}
+#mensajeCuadroFlecha1{
+	width: 690px;
+	/*height: 300px;*/
+	position: relative;
+}
+/*#guardarCuadro1, #guardarCuadro2, #guardarCuadro3, #guardarCuadro4, #guardarCuadro5{
+	position: relative;
+	left: -120px;
+	top: 60px;
+}*/
+#textareaCuadro1{
+	width: 93%;
+	height: 110px;
+	margin: 30px auto !important;
+}
+#cuadroFlecha2, #cuadroFlecha3, #cuadroFlecha4, #cuadroFlecha5, #cuadro2Flecha2, #cuadro2Flecha3, #cuadro2Flecha4, #cuadro2Flecha5{
+	width: 700px;
+	position: relative;
+	/*height: 350px;*/
+	display: none;
+}
+#mensajeCuadroFlecha2, #mensajeCuadroFlecha3, #mensajeCuadroFlecha4, #mensajeCuadroFlecha5{
+	width: 690px;
+	position: relative;
+	/*height: 350px;*/
+	display: none;
+}
+#texto4Cuadro4{ /* RECORDAR*/
+	width:340px;
+	position: relative;
+	top: 47px;
+	left: 29px;
+}
+#texto1Cuadro2{/* actuar con razon*/
+	position: relative;
+	top: 36px;
+	/*left: 320px;*/
+}
+#texto3Cuadro3{ /* actuar con razon*/
+	width:340px;
+	position: relative;
+	top: 16px;
+	left: 25px;
+}
+#texto5Cuadro5{ /* OPCION2*/
+	width:340px;
+	position: relative;
+	top: 71px;
+	left: 29px;
+}
+#texto6Cuadro6{ /* QUEDARSE EN EL SENTIMIENTOn*/
+	width:340px;
+	position: relative;
+	top: 60px;
+	left: 25px;
+}
+#texto2Cuadro3{/* quedarse en el sentimiento*/
+	position: relative;
+	top: 14px;
+}
+
+#texto2Cuadro2{ /* quedarse en el sentimiento*/
+	width:340px;
+	position: relative;
+	top: 57px;
+	left: 25px;
+}
+#texto7Cuadro7{ /* quedarse en el sentimiento*/
+	width:340px;
+	position: relative;
+	top: 14px;
+	left: 25px;
+}
+#boton2Cuadro2{
+	position: relative;
+	top: 0px;
+	left: 143px;
+}
+#boton1Cuadro2{
+	position: relative;
+	top: -33px;
+	left: 143px;
+}
+#boton2Cuadro4{
+	position: relative;
+	top: -65px;
+	left: 143px;
+}
+#boton1Cuadro5{
+	position: relative;
+	top: -33px;
+	left: 143px;
+}
+#boton1Cuadro3{
+	position: relative;
+	top: -41px;
+	left: 143px;
+}
+#boton2Cuadro3{
+	position: relative;
+	top: -26px;
+	left: 143px;
+}
+#boton1Cuadro4, #boton2Cuadro5{
+	position: relative;
+	/*top: 16px;*/
+	left: 143px;
+}
+/*#imagen3Cuadro2{
+	position: relative;
+	top: -40px;
+	left: 90px;
+}*/
+#actividadCamino{
+	background: url('../../img/mpyc2/m10/fondo1.jpg');
+  	width: 100%;
+  	top: 0;
+  	max-width: 10000px;
+  	margin: 0;
+  	background-size: 100% 100%;
+}
+#actividadCamino2{
+	background: url('../../img/mpyc2/m10/fondo2.jpg');
+  	width: 100%;
+  	max-width: 10000px;
+  	margin: 0;
+  	background-size: 100% 100%;
+}
+/*h2{
+	width: 10px;
+}
+h2 span{
+	color: white;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.0);
+}
+.tituloFlechaI{
+	position: relative;
+	top: -20px;
+	left: 350px;
+}
+.tituloFlechaD{
+	position: relative;
+	top: -276px;
+	left: 890px;
+}
+#titulo2FlechaCuadro1, #titulo1FlechaCuadro2, #titulo2FlechaCuadro2, #titulo1FlechaCuadro3, #titulo2FlechaCuadro3, #titulo1FlechaCuadro4, #titulo2FlechaCuadro4, #titulo1FlechaCuadro5, #titulo2FlechaCuadro5{
+	display: none;
+}*/
+
+.flecha{
+	top: 31%;
+	cursor: pointer;
+	text-align: center;
+	display: none;
+
+}
+
+.flecha span{
+	top:-136px;
+	margin: 0px auto;
+}
+
+.flecha span h2{
+	font-weight: 800;
+	font-size: 20px;
+}
+
+.flechaIzquierda{
+	left: 10%;
+}
+
+.flechaDerecha{
+	right: 10%;
+}
+
+.palabras{
+  background:  url('../../img/mpyc2/m10/boton_off.png');
+  background-size: 100% 100%;
+  font-size: 20px;
+  /*margin: -4px;*/
+  padding: 6px 0px;
+  
+}
+
+.palabras:hover{
+  background:  url('../../img/mpyc2/m10/boton_on.png');
+  background-size: 100% 100%;
+}
+
+.paddingColFlecha1{
+	padding: 15px;
+}
+
+#objetosHabitacion{
+	background: url('../../img/mpyc2/m10/habitacion.jpg');
+  	width: 100%;
+  	max-width: 10000px;
+  	margin: 0;
+  	background-size: 100% 100%;
+
+}
+
+#billsObjetos{
+	position: absolute;
+	width: 21%;
+    top: 28%;
+    left: 67%;
+}
+
+.objeto{
+	position: absolute;
+	cursor: pointer;
+
+}
+
+.objeto img{
+	position: absolute;
+	width: 100%;
+}
+
+.objeto span{
+	background-image: url('../../img/mpyc2/m10/boton_on.png');
+	background-size: 100% 100%;
+	z-index: 30;
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+	padding: 10px 20px;
+	display: none;
+
+}
+
+#objeto1{
+	top: 75%;
+    left: 32%;
+    width: 12%;
+
+}
+
+#objeto1 img:hover{
+	content: url('../../img/mpyc2/m10/morral_sel.png');
+}
+
+#objeto1 span{
+	left: 20%;
+}
+
+#objeto2{
+	top: 58%;
+    left: 29%;
+    width: 5%;
+}
+
+#objeto2 img:hover{
+	content: url('../../img/mpyc2/m10/lampara_sel.png');
+}
+
+#objeto2 span{
+	left: -50%;
+}
+
+
+#objeto3{
+	top: 62%;
+    left: 66%;
+    width: 10%;
+}
+
+#objeto3 img:hover{
+	content: url('../../img/mpyc2/m10/sleeping_sel.png');
+}
+
+#objeto4{
+	top: 80%;
+    left: 65%;
+    width: 16%;
+}
+
+#objeto4 img:hover{
+	content: url('../../img/mpyc2/m10/olla_sel.png');
+}
+
+#objeto5{
+	top: 63%;
+    left: 43%;
+    width: 9%;
+}
+
+#objeto5 img:hover{
+	content: url('../../img/mpyc2/m10/bolsa_sel.png');
+}
+
+#objeto6{
+	top: 33%;
+    left: 54%;
+    width: 12%;
+}
+
+#objeto6 img:hover{
+	content: url('../../img/mpyc2/m10/maleta_sel.png');
+}
+
+#objeto7{
+	top: 23%;
+    left: 72%;
+    width: 14%;
+}
+
+#objeto7 img:hover{
+	content: url('../../img/mpyc2/m10/sombrero_sel.png');
+}
+
+#objeto8{
+	top: 76%;
+    left: 22%;
+    width: 4%;
+}
+
+#objeto8 img:hover{
+	content: url('../../img/mpyc2/m10/termo_sel.png');
+}
+
+#emergenteObjetos{
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 650px;
+  /*background: rgba(0,0,0,0.5);*/
+  z-index: 100;
+  text-align: center;
+  display: none;
+}
+
+#emergenteObjetos > div{
+  width: 50%;
+  background: #152A2D;
+  padding: 20px;
+  margin: 0px auto;
+  top: 42%;
+}
+
+#textoObjetos{
+  margin: 15px auto 40px;
+}
+
+
+
+
+
+
+
+
+
+
